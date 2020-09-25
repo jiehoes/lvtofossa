@@ -10,34 +10,22 @@ cd lvtofossa
 
 composer install
 
-vagrant up
-
-composer install
-
-create database XXXXXX-0X
-
-copy jiholaravelfocalfossa2.box into directory
-
-vagrant box add jiholaravelfocalfossa2 jiholaravelfocalfossa2.box
+.vagrantfile set IP to: 192.168.56.30
+.env set to: DB_HOST=192.168.56.30
 
 vagrant up
-
-### Database
 
 vagrant ssh
 $ sudo mysql -u root --password='root' < /var/www/html/database.sql
 $ exit
 
-open heidisql: 192.168.XX.XX; root P3rtamax
+### heidisql
 
-or advanced:
-php artisan storage:fresh
+host:192.168.56.30 user:root pass:root
 
-### Create symlink
+php artisan migrate
 
-php artisan storage:link
-
-browse http://192.168.XX.XX
+see http://192.168.56.30
 
 ### Configuration
 
