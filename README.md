@@ -11,13 +11,16 @@ cd lvtofossa
 composer install
 
 .vagrantfile set IP to: 192.168.56.30
+
 .env set to: DB_HOST=192.168.56.30
 
 vagrant up
 
 vagrant ssh
-$ sudo mysql -u root --password='root' < /var/www/html/database.sql
-$ exit
+
+    $ sudo mysql -u root --password='root' < /var/www/html/database.sql
+
+    $ exit
 
 ### heidisql
 
