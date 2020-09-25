@@ -18,19 +18,15 @@ requirement : git, composer, virtualbox, vagrant, heidisql
 
     vagrant ssh
 
-    $ sudo mysql -u root --password='root' < /var/www/html/database.sql
-
-    $ exit
-
 ### heidisql
 
-host:192.168.56.30 user:root pass:root
+create new session host:192.168.56.30 user:root pass:root
 
     php artisan migrate
 
-see http://192.168.56.30
-
 ### mapserver
+
+we've modified this:
 
 sudo nano /etc/apache2/conf-enabled/serve-cgi-bin.conf
 
@@ -47,5 +43,7 @@ sudo nano /etc/apache2/conf-enabled/serve-cgi-bin.conf
     Require all granted
 
     </Directory>
+
+see http://192.168.56.30
 
 see http://192.168.56.30/cgi-bin/mapserv?
