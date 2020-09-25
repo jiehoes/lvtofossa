@@ -1,22 +1,22 @@
 # Laravel on Ubuntu 20.04
 
-install : git, composer, virtualbox, vagrant, heidisql
+requirement : git, composer, virtualbox, vagrant, heidisql
 
-composer global require laravel/installer
+    composer global require laravel/installer
 
-git clone https://github.com/jiehoes/lvtofossa.git
+    git clone https://github.com/jiehoes/lvtofossa.git
 
-cd lvtofossa
+    cd lvtofossa
 
-composer install
+    composer install
 
 .vagrantfile set IP to: 192.168.56.30
 
 .env set to: DB_HOST=192.168.56.30
 
-vagrant up
+    vagrant up
 
-vagrant ssh
+    vagrant ssh
 
     $ sudo mysql -u root --password='root' < /var/www/html/database.sql
 
@@ -26,11 +26,11 @@ vagrant ssh
 
 host:192.168.56.30 user:root pass:root
 
-php artisan migrate
+    php artisan migrate
 
 see http://192.168.56.30
 
-### Configuration
+### mapserver
 
 sudo nano /etc/apache2/conf-enabled/serve-cgi-bin.conf
 
