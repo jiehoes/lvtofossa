@@ -47,3 +47,5 @@ sudo nano /etc/apache2/conf-enabled/serve-cgi-bin.conf
 see http://192.168.56.30
 
 see http://192.168.56.30/cgi-bin/mapserv?
+
+![Virtualbox](network.jpg)
