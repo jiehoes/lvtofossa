@@ -110,3 +110,17 @@ To redirect http to https page, please edit .conf file:
 see https://lvtofossa-laravel8-01.vagrant
 
 see https://lvtofossa-laravel8-01.vagrant/cgi-bin/mapserv?
+
+### v1.0.3
+
+[How To Install PostgreSQL 12 on Ubuntu 20.04/18.04/16.04](https://computingforgeeks.com/install-postgresql-12-on-ubuntu/)
+
+[How To Install PostGIS on Ubuntu 20.04/18.04 | Debian 10](https://computingforgeeks.com/how-to-install-postgis-on-ubuntu-debian/)
+
+[Install pgAdmin 4 on Ubuntu 20.04/18.04/16.04](https://computingforgeeks.com/how-to-install-pgadmin-4-on-ubuntu/)
+
+see https://lvtofossa-laravel8-01.vagrant/pgadmin4
+
+usernema: admin@gmail.com
+
+password: P3rtamax
