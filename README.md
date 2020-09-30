@@ -119,8 +119,9 @@ see https://lvtofossa-laravel8-01.vagrant/cgi-bin/mapserv?
 
 [Install pgAdmin 4 on Ubuntu 20.04/18.04/16.04](https://computingforgeeks.com/how-to-install-pgadmin-4-on-ubuntu/)
 
+
 see https://lvtofossa-laravel8-01.vagrant/pgadmin4
 
-usernema: admin@gmail.com
+username: admin@gmail.com
 
 password: P3rtamax
