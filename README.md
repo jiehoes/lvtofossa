@@ -2,7 +2,7 @@
 
 ### v1.0.0
 
-requirement : git, composer, virtualbox, vagrant, heidisql
+requirements : git, composer, virtualbox, vagrant, heidisql
 
     composer global require laravel/installer
 
@@ -12,7 +12,7 @@ requirement : git, composer, virtualbox, vagrant, heidisql
 
     composer install
 
-Create local network
+create local network
 
 ![Virtualbox](network.png)
 
@@ -71,9 +71,9 @@ see http://192.168.56.30/cgi-bin/mapserv?
 
 ### v1.0.1
 
-Laravel v.8
+laravel v.8
 
-Windows: C:\Windows\System32\drivers\etc\hosts
+windows: C:\Windows\System32\drivers\etc\hosts
 
     192.168.56.30   lvtofossa-laravel8-01.vagrant
 
@@ -83,9 +83,9 @@ see http://lvtofossa-laravel8-01.vagrant/cgi-bin/mapserv?
 
 ### v1.0.2
 
-Install an SSL certificate for the local server using MKCERT to run the HTTPS protocol.
+install an SSL certificate for the local server using MKCERT to run the HTTPS protocol.
 
-To redirect http to https page, please edit .conf file:
+to redirect http to https page, please edit .conf file:
 
     $ sudo nano /etc/apache2/sites-enabled/lvtofossa-laravel8-01.vagrant.conf
 
