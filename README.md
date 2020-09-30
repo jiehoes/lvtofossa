@@ -12,6 +12,10 @@ requirement : git, composer, virtualbox, vagrant, heidisql
 
     composer install
 
+Create local network
+
+![Virtualbox](network.png)
+
 .vagrantfile set IP to: 192.168.56.30
 
 .env set to: DB_HOST=192.168.56.30
@@ -64,8 +68,6 @@ see http://192.168.56.30
 
 see http://192.168.56.30/cgi-bin/mapserv?
 
-![Virtualbox](network.png)
-
 
 ### v1.0.1
 
@@ -101,6 +103,7 @@ To redirect http to https page, please edit .conf file:
     #RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [END,NE,R=permanent]
 
     </VirtualHost>
+
 
     $ sudo systemctl restart apache2
 
