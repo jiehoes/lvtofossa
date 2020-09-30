@@ -1,0 +1,1 @@
+{"virtualbox":{"/var/www/html":{"create":true,"group":"www-data","owner":"www-data","guestpath":"/var/www/html","hostpath":"E:/ms4w/apps/lvtofossa","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"E:/ms4w/apps/lvtofossa","disabled":false,"__vagrantfile":true}}}

@@ -49,3 +49,15 @@ see http://192.168.56.30
 see http://192.168.56.30/cgi-bin/mapserv?
 
 ![Virtualbox](network.jpg)
+
+
+### v1.0.1
+
+Windows: C:\Windows\System32\drivers\etc\hosts
+
+    192.168.56.30   lvtofossa-laravel8-01.vagrant
+
+see http://lvtofossa-laravel8-01.vagrant
+
+see http://lvtofossa-laravel8-01.vagrant/cgi-bin/mapserv?
+
