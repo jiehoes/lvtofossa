@@ -113,7 +113,7 @@ see https://lvtofossa-laravel8-01.vagrant/cgi-bin/mapserv?
 
 ### v1.0.3
 
-[How To Install PostgreSQL 12 on Ubuntu 20.04/18.04/16.04](https://computingforgeeks.com/install-postgresql-12-on-ubuntu/){:target="_blank"}
+[How To Install PostgreSQL 12 on Ubuntu 20.04/18.04/16.04](https://computingforgeeks.com/install-postgresql-12-on-ubuntu/)
 
 [How To Install PostGIS on Ubuntu 20.04/18.04 | Debian 10](https://computingforgeeks.com/how-to-install-postgis-on-ubuntu-debian/)
 
