@@ -1,5 +1,7 @@
 # Laravel on Ubuntu 20.04
 
+### v1.0.0
+
 requirement : git, composer, virtualbox, vagrant, heidisql
 
     composer global require laravel/installer
@@ -18,13 +20,13 @@ requirement : git, composer, virtualbox, vagrant, heidisql
 
     vagrant ssh
 
-### heidisql
+#### heidisql
 
 create new session host:192.168.56.30 user:root pass:root
 
     php artisan migrate
 
-### environment
+#### environment
 
     DB_CONNECTION=mysql
 
@@ -38,7 +40,7 @@ create new session host:192.168.56.30 user:root pass:root
 
     DB_PASSWORD=root
 
-### mapserver
+#### mapserver
 
 we've modified this:
 
@@ -77,3 +79,31 @@ see http://lvtofossa-laravel8-01.vagrant
 
 see http://lvtofossa-laravel8-01.vagrant/cgi-bin/mapserv?
 
+### v1.0.2
+
+Install an SSL certificate for the local server using MKCERT to run the HTTPS protocol.
+
+To redirect http to https page, please edit .conf file:
+
+    $ sudo nano /etc/apache2/sites-enabled/lvtofossa-laravel8-01.vagrant.conf
+
+
+    <VirtualHost *:80>
+
+    ServerName lvtofossa-laravel8-01.vagrant
+
+    Redirect / https://lvtofossa-laravel8-01.vagrant
+
+    #RewriteEngine on
+
+    #RewriteCond %{SERVER_NAME} =lvtofossa-laravel8-01.vagrant
+
+    #RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [END,NE,R=permanent]
+
+    </VirtualHost>
+
+    $ sudo systemctl restart apache2
+
+see https://lvtofossa-laravel8-01.vagrant
+
+see https://lvtofossa-laravel8-01.vagrant/cgi-bin/mapserv?
