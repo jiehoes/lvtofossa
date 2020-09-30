@@ -1,4 +1,4 @@
-# Laravel on Ubuntu 20.04
+# Laravel and Mapserver on Ubuntu 20.04
 
 ### v1.0.0
 
