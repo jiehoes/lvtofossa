@@ -67,6 +67,8 @@ see http://192.168.56.30/cgi-bin/mapserv?
 
 ### v1.0.1
 
+Laravel v.8
+
 Windows: C:\Windows\System32\drivers\etc\hosts
 
     192.168.56.30   lvtofossa-laravel8-01.vagrant
