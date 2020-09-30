@@ -24,7 +24,7 @@ create new session host:192.168.56.30 user:root pass:root
 
     php artisan migrate
 
-### environtmen
+### environment
 
     DB_CONNECTION=mysql
 
@@ -35,7 +35,7 @@ create new session host:192.168.56.30 user:root pass:root
     DB_DATABASE=laravel
 
     DB_USERNAME=root
-    
+
     DB_PASSWORD=root
 
 ### mapserver
