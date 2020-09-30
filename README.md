@@ -24,6 +24,20 @@ create new session host:192.168.56.30 user:root pass:root
 
     php artisan migrate
 
+### environtmen
+
+    DB_CONNECTION=mysql
+
+    DB_HOST=192.168.56.30
+
+    DB_PORT=3306
+
+    DB_DATABASE=laravel
+
+    DB_USERNAME=root
+    
+    DB_PASSWORD=root
+
 ### mapserver
 
 we've modified this:
@@ -48,7 +62,7 @@ see http://192.168.56.30
 
 see http://192.168.56.30/cgi-bin/mapserv?
 
-![Virtualbox](network.jpg)
+![Virtualbox](network.png)
 
 
 ### v1.0.1
